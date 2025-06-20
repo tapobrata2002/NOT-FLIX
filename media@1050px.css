@@ -1,0 +1,205 @@
+@media screen and (max-width: 1050px) {
+    .box .bg{
+        height: 32em;
+    }
+    
+    .content{
+        nav{
+            max-width: max(85vw, 21em);
+
+            span img{
+                width: max(20vw,6em);
+            }
+        }
+
+        .head{
+            margin: 4em 1.7em;
+
+            h1{
+                font-size: 2.09em;
+            }
+        
+            p{
+                font-size: 1.16em;
+            }
+    
+            h3{
+                font-size: 1.16em;
+            }
+        }
+    }
+
+    .mail{
+        width: 75%;
+        margin: auto;
+        
+        input{
+            height: 3.1em;
+            margin-bottom: 1.25em;
+        }
+
+        button{
+            width: 7em;
+            height: 2em;
+            font-size: max(2.7vw, 1.3em);
+            margin-bottom: 0.6em;
+        }
+    }
+
+    .ad{
+
+        .tiles{
+            align-items: normal;
+            gap: 0;
+            padding: 0;
+            height: 100%;
+
+            .left, .right{
+                width: 100vw;
+
+                .textbox{
+                    text-align: center;
+                    max-width: 100%;
+                    margin: 0;
+                    margin-top: 3em;
+
+                    h2{
+                        font-size: 2em;
+                        margin: 0 1em;
+                    }
+    
+                    p{
+                        width: 85vw;
+                        font-size: 1.1em;
+                        margin: 1em auto;
+                    }
+                }
+            }
+        }
+        
+        .tiles:nth-child(1){
+            .right{
+                margin-top: 10vw;
+                height: max(11em, 50vw);
+
+                video{
+                    width: 50%;
+                    margin-left: 25%;
+                }
+    
+                img{
+                    width: 68%;
+                    top: -10.5vw;
+                    left: 16.3vw;
+                }
+            }
+        }
+        
+        .tiles:nth-child(2){
+            flex-wrap: wrap-reverse;
+
+            .left{
+                margin-top: 4vw;
+                height: max(15em, 60vw);
+
+                img{
+                    width: 68%;
+                    margin-left: 16%;
+                }
+
+                .box{
+                    height: max(8.5vw, 2.5em);
+                    width: 45vw;
+                    bottom: max(13vw, 4.2em);
+                    right: 27vw;
+                    border-radius: 6px;
+                    border: 0.7px solid rgba(128, 128, 128, 0.7);
+
+                    img{
+                        width: max(12%, 1.5em);
+                    }
+
+                    .text{
+                        font-size: min(1em, 2vw);
+                    }
+
+                    .download{
+                        width: 12.5%;
+                    }
+                }
+            }
+        }
+        
+        .tiles:nth-child(3){
+            .right{
+                margin-top: 8vw;
+                height: max(14em, 50vw);
+
+                video{
+                    width: 43%;
+                    margin-left: 28.5%;
+                }
+    
+                img{
+                    width: 68%;
+                    top: -5.5vw;
+                    left: 16.3vw;
+                }
+            }
+        }
+        
+        .tiles:nth-child(4){
+            flex-wrap: wrap-reverse;
+            
+            .left{
+                margin-top: 4vw;
+                height: max(17em, 60vw);
+
+                img{
+                    width: 70%;
+                    margin-left: 15%;
+                }
+            }
+        }
+    }
+
+    .faq{
+        padding: 4em max(3.5%, 1.5em);
+
+        h2{
+            font-size: 2em;
+        }
+
+        ul{
+            width: 100%;
+
+            h3{
+                margin-bottom: 0;
+                font-size: 19px;
+                padding: 18px 25px;
+            }
+            
+            .text{
+                font-size: 19px;
+                padding: 0 25px;
+            }
+            
+            /* added through js */
+            .show{
+                padding: 18px 25px;
+            }
+        }
+
+        h3{
+            margin-top: 2em;
+        }
+    }
+
+    footer .foot{
+        padding: 3em 0 3em 6vw;
+
+        ul li{
+            width: 50%;
+        }
+    }
+}
